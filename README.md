@@ -1,6 +1,8 @@
 # LocalDBBenchmark
 Benchmark LiteDB and SQLite
 
+[Qiita](https://qiita.com/KyoheiOkawa/items/903768bec2f801ef3c7c)
+
 # Results
 
 ## InsertBulk(class:DBInsertBenchmark)
