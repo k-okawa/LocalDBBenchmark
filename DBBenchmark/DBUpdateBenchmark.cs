@@ -89,7 +89,7 @@ namespace DBBenchmark
             using (var db = new LiteDatabase(_liteDbPath))
             {
                 var col = db.GetCollection<Data>("dataList");
-                int index = insertCount / 3;
+                int index = insertCount / 2;
                 string name = "Asset" + index;
                 var result = col.FindOne(x => x.name == name);
                 result.status = 1;
@@ -103,7 +103,7 @@ namespace DBBenchmark
         {
             using (var db = new SQLiteConnection(_sqlitePath))
             {
-                int index = insertCount / 3;
+                int index = insertCount / 2;
                 string name = "Asset" + index;
                 var result = db.Table<Data>().First(x => x.name == name);
                 result.status = 1;
