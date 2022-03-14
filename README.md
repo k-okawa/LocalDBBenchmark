@@ -15,7 +15,7 @@ Benchmark LiteDB and SQLite
 | LiteDBInsert |      100000 | 4,613.43 ms | 91.210 ms | 235.442 ms | 4,543.66 ms | 4,176.39 ms | 5,163.66 ms |
 | SQLiteInsert |      100000 |   615.54 ms | 12.134 ms |   9.473 ms |   615.57 ms |   599.93 ms |   629.06 ms |
 
-## GetAllCollection(class:DBGetCollectionBenchmark)
+## GetAllRecords(class:DBGetCollectionBenchmark)
 ### 100Records
 |              Method |     Mean |    Error |   StdDev |      Min |      Max |
 |-------------------- |---------:|---------:|---------:|---------:|---------:|
